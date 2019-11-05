@@ -1,0 +1,25 @@
+{
+  "name": "js-book-club",
+  "private": true,
+  "homepage": "https://github.com/BootcampersCollective/js-book-club#readme",
+  "bugs": {
+    "url": "https://github.com/BootcampersCollective/js-book-club/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BootcampersCollective/js-book-club.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Martin Rosenberg <Martin.B.Rosenberg@gmail.com> (https://martinbrosenberg.com)",
+  "workspaces": [
+    "eloquent-javascript-unofficial"
+  ],
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.9.1"
+  }
+}
